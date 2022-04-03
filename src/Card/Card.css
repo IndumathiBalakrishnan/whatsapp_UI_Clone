@@ -1,0 +1,32 @@
+  .imgdiv{
+   
+      width: 425px;
+      height: 77px;
+      border-bottom: solid 2px #eeeeee;;
+      background-color:#fbfbfb;
+  }
+  .imgcenter-text{
+  
+    height: 58px;
+    width: 55%;
+    position: relative;
+    left: 65px;
+    bottom: 55px;
+    line-height: 16px;
+  
+  }
+  .image{
+    height: 64px;
+      width: 64px;
+      border-radius: 50%;
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+  .imgrightside-text{
+  
+  
+    position: relative;
+    left: 325px;
+    bottom: 110px;
+    color:gray; 
+  }

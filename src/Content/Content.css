@@ -1,0 +1,285 @@
+ 
+ 
+ .card-container {
+  height: 700px;
+  width: 90%;
+  
+  display: flex;
+ 
+  justify-content: center;
+  
+  background-color:#dfdfdf;
+  margin-left:50px;
+  margin-top:0px;
+ 
+}
+.Top-container{
+  width: 100%;
+  height: 100px;
+  background-color:#009688;
+ 
+}
+.Container1{
+height: 650px;
+width: 80%;
+background-color:#e4ddd6;
+position: absolute;
+  top: 21px;
+  display: flex;
+  background-image: url(./backimage.jpg);
+}
+.leftside-content{
+  height: 640px;
+  width: 35%;
+  background-color:white;
+}
+.leftside{
+  height: 60px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.message{
+  height: 25px;
+  position: relative;
+  top: 20px;
+  font-size: 30px;
+
+}
+.firstuser-icon{
+  height: 60px;
+  width: 100px;
+}
+.msg-ellipse{
+  /* height: 45px;
+  width: 100px; */
+  position: relative;
+  left:330px;
+  bottom:50px;
+}
+.searchicon{
+  height: 50px;
+  width:100%;
+ 
+  background-color:#fefefe;
+  position:"relative";
+  border-bottom: solid 2px #eeeeee;
+
+  
+}
+.searchicon-text{
+  position: relative;
+    left: 26px;
+    bottom: 15px;
+    top:5px;
+    border-style: hidden;
+    background-color: #eeeeee;
+    width: 200px;
+
+}
+.Search-box{
+   
+      width: 80%;
+      height: 40px;
+      top:5px;
+      border-radius: 5px;
+      
+    
+      position: relative;
+      left: 45px;
+      background-color: #eeeeee
+  
+}
+
+.imgdiv{
+  /* background-color:#eeeeee; */
+    width: 425px;
+    height: 77px;
+    border-bottom: solid 0.001px grey;
+    background-color:#fbfbfb;
+}
+.imagfirst{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 8px;
+    margin-left: 8px;
+
+}
+.imgcenterfirst-text{
+  height: 51px;
+    width: 100px;
+    
+    position: relative;
+    left: 73px;
+    bottom: 47px;
+    line-height: 15px;}
+    
+
+.image{
+  height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.imgcenter-text{
+  
+  height: 58px;
+  width: 30%;
+  position: relative;
+  left: 85px;
+  bottom: 55px;
+  line-height: 16px;
+
+}
+.imgrightside-text{
+  
+  
+  position: relative;
+  left: 325px;
+  bottom: 110px;
+  color:gray; 
+}
+.rightside{
+  height:60px;
+  width: 64%;
+  background-color:#eeeeee;
+  margin-left: 3px;
+  padding-left:10px;
+  padding-right:10px;
+ 
+}
+.imgdiv-first{
+  height: 60px;
+}
+.imagfirst{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 8px;
+    margin-left: 8px;
+
+}
+.scroll{
+  height: 500px;
+    overflow-y: scroll;
+    width: 430px;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar 
+{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb 
+{
+  background:#c1c1c1 ; 
+  
+}
+
+.imgdiv{
+  /* background-color:#eeeeee; */
+    width: 425px;
+    height: 77px;
+    border-bottom: solid 0.001px grey;
+    background-color:#fbfbfb;
+}
+.imgcenter-text{
+
+  height: 58px;
+  width: 30%;
+  position: relative;
+  left: 85px;
+  bottom: 55px;
+  line-height: 16px;
+
+}
+.image{
+  height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.divConatainer {
+  height: 100px;
+  width: 300px;
+  background-color: blue;
+  position:fixed;
+  
+
+}
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 580px;;
+  gap: 40px;
+  padding: 24px;
+
+  
+}
+
+.message-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1 1;
+  
+  align-items: flex-end;
+  overflow-y: auto;
+}
+
+.message-body > :first-child {
+  margin-top: auto;
+}
+.send-container{
+  background-color:#e4ddd6 ;
+  width: 770px;
+  height: 100px;
+
+}
+
+.send-message-container {
+  display: flex;
+  gap: 12px;
+  padding: 4px;
+  align-items: center;
+}
+
+.message-input {
+  height: 40px;
+  width: 450px;
+  border-radius: 20px;
+  font-size: 24px;
+}
+
+.send-message-container > button {
+ 
+  color: black;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.message-container {
+  width: 50%;
+  display: flex;
+  border-radius: 10px;
+  padding: 2px;
+  height:60px;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #55de75;
+  color: white;
+
+}
+
+.message-container > .text {
+  font-size: 18px;
+  font-weight: bold;
+}
+.message-container > .date {
+  font-size: 14px;
+}
